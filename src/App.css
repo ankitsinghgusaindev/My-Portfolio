@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #401027;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px 5%;
+}
+
+.app {
+  width: 100%;
+}

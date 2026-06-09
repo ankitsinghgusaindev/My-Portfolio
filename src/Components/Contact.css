@@ -1,0 +1,173 @@
+.contact-section {
+  padding: 100px 10%;
+  background: #111827;
+  text-align: center;
+}
+
+.contact-header {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.contact-tag {
+  display: inline-block;
+
+  padding: 12px 24px;
+
+  border-radius: 40px;
+
+  background: rgba(56,189,248,.12);
+
+  border: 1px solid rgba(56,189,248,.2);
+
+   color: #94a3b8;
+  margin-bottom: 20px;
+   font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.contact-header h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.contact-header h2 span {
+  color: #38bdf8;
+}
+
+.contact-header p {
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+/* CONTACT CARDS */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 25px;
+
+  margin-bottom: 60px;
+}
+
+.contact-card {
+  background: rgba(255,255,255,.04);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  border-radius: 20px;
+
+  padding: 35px;
+
+  transition: .3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+
+  border-color: #38bdf8;
+
+  box-shadow: 0 15px 35px rgba(56,189,248,.12);
+}
+
+.contact-icon {
+  width: 70px;
+  height: 70px;
+
+  margin: auto;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(56,189,248,.12);
+
+  color: #38bdf8;
+
+  font-size: 1.5rem;
+}
+
+.contact-card h3 {
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  color: #94a3b8;
+}
+
+/* SOCIAL */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  margin-bottom: 40px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+
+  color: #cbd5e1;
+
+  transition: .3s;
+}
+
+.social-links a:hover {
+  color: #38bdf8;
+}
+
+/* CTA */
+
+.contact-btn {
+  display: inline-block;
+
+  padding: 15px 35px;
+
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  background: #38bdf8;
+
+  color: #0f172a;
+
+  font-weight: 600;
+
+  transition: .3s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 15px 30px rgba(56,189,248,.25);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

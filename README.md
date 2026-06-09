@@ -144,8 +144,7 @@ Financial management platform with:
 
 **Tech Stack**
 - React.js
-- Node.js
-- MongoDB
+- PostgreSQL
 
 ---
 

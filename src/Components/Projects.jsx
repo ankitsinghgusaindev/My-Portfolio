@@ -19,7 +19,7 @@ const projects = [
       "Responsive Design",
     ],
     github: "https://github.com/ankitsinghgusaindev/UK-Hills.git",
-    live: "uk-hills-docsxe5z8-ankitsinghgusaindevs-projects.vercel.app",
+    live: "https://uk-hills.vercel.app",
   },
 
   // {
@@ -45,7 +45,7 @@ const projects = [
       "Modern software engineer portfolio featuring interactive UI, responsive layouts, project showcases, and recruiter-friendly design.",
     features: ["Responsive Design", "Interactive Components", "Modern UI"],
     github: "https://github.com/ankitsinghgusaindev/My-Portfolio.git",
-    live: "my-portfolio-mmanxyojz-ankitsinghgusaindevs-projects.vercel.app",
+    live: "https://my-portfolio-six-xi-sadsoycwyl.vercel.app",
   },
 
   {

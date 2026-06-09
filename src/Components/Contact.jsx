@@ -89,7 +89,7 @@ const Contact = () => {
         </a> */}
 
         <a
-          href="https://github.com/your-profile"
+          href="https://github.com/ankitsinghgusaindev"
           target="_blank"
           rel="noreferrer"
         >

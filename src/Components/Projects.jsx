@@ -1,7 +1,7 @@
 import "./Project.css";
 import {
   FaMapMarkedAlt,
-  FaChartLine,
+  // FaChartLine,
   FaUserCircle,
   FaShoppingCart,
 } from "react-icons/fa";
@@ -18,20 +18,24 @@ const projects = [
       "District-wise Exploration",
       "Responsive Design",
     ],
+    github: "https://github.com/ankitsinghgusaindev/UK-Hills.git",
+    live: "uk-hills-docsxe5z8-ankitsinghgusaindevs-projects.vercel.app",
   },
 
-  {
-    icon: <FaChartLine />,
-    title: "FinTech Dashboard",
-    tech: ["React.js", "Node.js", "PostgreSQL"],
-    description:
-      "Financial analytics dashboard for monitoring customer loans, transactions, performance metrics, and business insights.",
-    features: [
-      "Analytics Dashboard",
-      "Customer Management",
-      "Data Visualization",
-    ],
-  },
+  // {
+  //   icon: <FaChartLine />,
+  //   title: "FinTech Dashboard",
+  //   tech: ["React.js", "Node.js", "PostgreSQL"],
+  //   description:
+  //     "Financial analytics dashboard for monitoring customer loans, transactions, performance metrics, and business insights.",
+  //   features: [
+  //     "Analytics Dashboard",
+  //     "Customer Management",
+  //     "Data Visualization",
+  //   ],
+  //   github: "https://github.com/ankitsinghgusaindev/uk-hills",
+  //   live: "https://ukhills.vercel.app",
+  // },
 
   {
     icon: <FaUserCircle />,
@@ -39,11 +43,9 @@ const projects = [
     tech: ["React.js", "CSS", "React Icons"],
     description:
       "Modern software engineer portfolio featuring interactive UI, responsive layouts, project showcases, and recruiter-friendly design.",
-    features: [
-      "Responsive Design",
-      "Interactive Components",
-      "Modern UI",
-    ],
+    features: ["Responsive Design", "Interactive Components", "Modern UI"],
+    github: "https://github.com/ankitsinghgusaindev/My-Portfolio.git",
+    live: "my-portfolio-mmanxyojz-ankitsinghgusaindevs-projects.vercel.app",
   },
 
   {
@@ -52,79 +54,62 @@ const projects = [
     tech: ["React.js", "Redux"],
     description:
       "Scalable shopping application featuring product browsing, filtering, cart management, and optimized user experience.",
-    features: [
-      "Product Filtering",
-      "Cart Management",
-      "Responsive Layout",
-    ],
+    features: ["Product Filtering", "Cart Management", "Responsive Layout"],
+    github: "https://github.com/ankitsinghgusaindev/UK-Hills-Overseas-Ecommerce-Platform.git",
+    live: "https://ukhills.vercel.app",
   },
 ];
 
 const Projects = () => {
   return (
     <section className="projects-section" id="projects">
-
       <div className="projects-header">
-
-        <span className="projects-tag">
-          Featured Work
-        </span>
+        <span className="projects-tag">Featured Work</span>
 
         <h2>
           Recent <span>Projects</span>
         </h2>
 
         <p>
-          A collection of software solutions, web applications,
-          and digital experiences built using modern technologies
-          and engineering best practices.
+          A collection of software solutions, web applications, and digital
+          experiences built using modern technologies and engineering best
+          practices.
         </p>
-
       </div>
 
       <div className="projects-grid">
-
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-
-            <div className="project-icon">
-              {project.icon}
-            </div>
+            <div className="project-icon">{project.icon}</div>
 
             <h3>{project.title}</h3>
 
             <p>{project.description}</p>
 
             <div className="project-features">
-
               {project.features.map((feature, i) => (
-                <span key={i}>
-                  ✓ {feature}
-                </span>
+                <span key={i}>✓ {feature}</span>
               ))}
-
             </div>
 
             <div className="project-tech">
-
               {project.tech.map((tech, i) => (
-                <span key={i}>
-                  {tech}
-                </span>
+                <span key={i}>{tech}</span>
               ))}
-
             </div>
 
             <div className="project-links">
-              <button>Live Demo</button>
-              <button>GitHub</button>
-            </div>
+              <button onClick={() => window.open(project.live, "_blank")}>
+                Live Demo
+              </button>
 
+              <button onClick={() => window.open(project.github, "_blank")}>
+                GitHub
+              </button>
+            </div>
           </div>
         ))}
-
       </div>
-
     </section>
   );
 };

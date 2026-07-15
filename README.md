@@ -2,7 +2,7 @@
 
 ![Portfolio Banner](https://img.shields.io/badge/React-Developer-blue?style=for-the-badge&logo=react)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 ## Overview
 
@@ -77,11 +77,11 @@ Categorized skill cards with icons:
 
 ---
 
-## 💼 Experience
+## Experience
 
 ### Associate Software Engineer
 **Decimal Technology Pvt Ltd**
-*Jan 2024 - Jul 2024*
+*Mar 2024 - Jul 2024*
 
 - Integrated software components
 - Improved application accessibility
@@ -90,7 +90,7 @@ Categorized skill cards with icons:
 
 ### Software Developer
 **Saarathi Finbiz Pvt Ltd**
-*Oct 2020 - Jan 2024*
+*Oct 2020 - Mar 2024*
 
 - Developed enterprise software solutions
 - Worked with Agile methodologies
@@ -99,7 +99,7 @@ Categorized skill cards with icons:
 
 ---
 
-## 🎓 Education
+## Education
 
 ### Bachelor of Computer Applications
 **St. Andrews Institute of Technology & Management**
@@ -116,9 +116,9 @@ Categorized skill cards with icons:
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🌄 Uttarakhand Tourism Platform
+### Uttarakhand Tourism Platform
 Interactive tourism platform featuring:
 
 - District-wise destinations
@@ -134,21 +134,7 @@ Interactive tourism platform featuring:
 
 ---
 
-### 💳 Fintech Dashboard
-Financial management platform with:
-
-- Analytics dashboard
-- Customer insights
-- Loan management
-- Transaction monitoring
-
-**Tech Stack**
-- React.js
-- PostgreSQL
-
----
-
-### 🛒 E-Commerce Frontend
+### E-Commerce Frontend
 Modern shopping experience featuring:
 
 - Product filtering
@@ -162,7 +148,7 @@ Modern shopping experience featuring:
 
 ---
 
-### 🌐 Portfolio Website
+### Portfolio Website
 Modern developer portfolio showcasing:
 
 - Professional profile
@@ -177,20 +163,18 @@ Modern developer portfolio showcasing:
 
 ---
 
-## 🏆 Certifications
+## Certifications
 
-- React.js Development
 - Hardware & Networking
 - AI Productivity Tools Certification
 - ChatGPT Professional Certification
 - Claude AI Certification
 - Gemini AI Certification
 - Perplexity AI Certification
-- Git & GitHub Version Control
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Fully optimized for:
 
@@ -201,7 +185,7 @@ Fully optimized for:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 ```bash
@@ -237,7 +221,7 @@ Canva AI
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -299,7 +283,7 @@ npm run build
 
 ---
 
-## 📬 Contact
+## Contact
 
 Email: **ankit.gusain97@gmail.com**
 

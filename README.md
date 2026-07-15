@@ -77,7 +77,7 @@ Categorized skill cards with icons:
 
 ---
 
-## 💼 Experience
+## Experience
 
 ### Associate Software Engineer
 **Decimal Technology Pvt Ltd**
@@ -99,7 +99,7 @@ Categorized skill cards with icons:
 
 ---
 
-## 🎓 Education
+## Education
 
 ### Bachelor of Computer Applications
 **St. Andrews Institute of Technology & Management**
@@ -116,9 +116,9 @@ Categorized skill cards with icons:
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🌄 Uttarakhand Tourism Platform
+### Uttarakhand Tourism Platform
 Interactive tourism platform featuring:
 
 - District-wise destinations
@@ -134,21 +134,7 @@ Interactive tourism platform featuring:
 
 ---
 
-### 💳 Fintech Dashboard
-Financial management platform with:
-
-- Analytics dashboard
-- Customer insights
-- Loan management
-- Transaction monitoring
-
-**Tech Stack**
-- React.js
-- PostgreSQL
-
----
-
-### 🛒 E-Commerce Frontend
+### E-Commerce Frontend
 Modern shopping experience featuring:
 
 - Product filtering
@@ -162,7 +148,7 @@ Modern shopping experience featuring:
 
 ---
 
-### 🌐 Portfolio Website
+### Portfolio Website
 Modern developer portfolio showcasing:
 
 - Professional profile
@@ -177,9 +163,8 @@ Modern developer portfolio showcasing:
 
 ---
 
-## 🏆 Certifications
+## Certifications
 
-- React.js Development
 - Hardware & Networking
 - AI Productivity Tools Certification
 - ChatGPT Professional Certification
@@ -189,7 +174,7 @@ Modern developer portfolio showcasing:
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Fully optimized for:
 
@@ -236,7 +221,7 @@ Canva AI
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -298,7 +283,7 @@ npm run build
 
 ---
 
-## 📬 Contact
+## Contact
 
 Email: **ankit.gusain97@gmail.com**
 

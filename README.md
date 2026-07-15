@@ -185,7 +185,7 @@ Fully optimized for:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 ```bash

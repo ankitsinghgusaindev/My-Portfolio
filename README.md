@@ -2,7 +2,7 @@
 
 ![Portfolio Banner](https://img.shields.io/badge/React-Developer-blue?style=for-the-badge&logo=react)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 ## Overview
 
@@ -81,7 +81,7 @@ Categorized skill cards with icons:
 
 ### Associate Software Engineer
 **Decimal Technology Pvt Ltd**
-*Jan 2024 - Jul 2024*
+*Mar 2024 - Jul 2024*
 
 - Integrated software components
 - Improved application accessibility
@@ -90,7 +90,7 @@ Categorized skill cards with icons:
 
 ### Software Developer
 **Saarathi Finbiz Pvt Ltd**
-*Oct 2020 - Jan 2024*
+*Oct 2020 - Mar 2024*
 
 - Developed enterprise software solutions
 - Worked with Agile methodologies
@@ -186,7 +186,6 @@ Modern developer portfolio showcasing:
 - Claude AI Certification
 - Gemini AI Certification
 - Perplexity AI Certification
-- Git & GitHub Version Control
 
 ---
 

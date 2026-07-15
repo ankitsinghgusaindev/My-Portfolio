@@ -5,7 +5,7 @@ import { FaDownload, FaArrowRight } from "react-icons/fa";
 
 const downloadResume = async () => {
   try {
-    const response = await fetch("/Ankit_Singh_Gusain_Resume.pdf");
+    const response = await fetch("/Ankit_Singh_Gusain_Resume_SDE.pdf");
 
     const blob = await response.blob();
 
@@ -14,7 +14,7 @@ const downloadResume = async () => {
     const link = document.createElement("a");
 
     link.href = url;
-    link.download = "Ankit_Singh_Gusain_Resume.pdf";
+    link.download = "Ankit_Singh_Gusain_Resume_SDE.pdf";
 
     document.body.appendChild(link);
     link.click();

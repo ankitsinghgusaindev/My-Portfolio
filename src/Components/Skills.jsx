@@ -53,7 +53,7 @@ const skills = [
       // { name: "Express.js", icon: <SiExpress /> },
       // { name: "MongoDB", icon: <SiMongodb /> },
       { name: "MySQL", icon: <SiMysql /> },
-      { name: "MySQL", icon: < SiPostgresql /> },
+      { name: "PostgreSQL", icon: < SiPostgresql /> },
     ],
   },
 

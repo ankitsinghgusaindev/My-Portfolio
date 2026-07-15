@@ -56,7 +56,7 @@ const projects = [
       "Scalable shopping application featuring product browsing, filtering, cart management, and optimized user experience.",
     features: ["Product Filtering", "Cart Management", "Responsive Layout"],
     github: "https://github.com/ankitsinghgusaindev/UK-Hills-Overseas-Ecommerce-Platform.git",
-    live: "https://ukhills.vercel.app",
+    live: "https://uk-hills-overseas-ecommerce-platfor.vercel.app",
   },
 ];
 

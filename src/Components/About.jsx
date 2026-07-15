@@ -57,7 +57,7 @@ const About = () => {
 
             <div className="highlight-card">
               <h3>☁️ Cloud & DevOps</h3>
-              <p>Experience with AWS, Docker, Git</p>
+              <p>Experience with AWS, Git & GitHub</p>
             </div>
 
             <div className="highlight-card">

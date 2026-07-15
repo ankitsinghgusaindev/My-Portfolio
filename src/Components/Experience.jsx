@@ -6,7 +6,7 @@ const Experience = () => {
     {
       role: "Associate Software Engineer",
       company: "Decimal Technology Pvt Ltd",
-      duration: "Jan 2024 - Jul 2024",
+      duration: "Mar 2024 - Jul 2024",
       icon: <FaLaptopCode />,
       description:
         "Integrated software components and third-party systems to improve accessibility, reliability, and overall product functionality.",
@@ -21,7 +21,7 @@ const Experience = () => {
     {
       role: "Software Developer",
       company: "Saarathi Finbiz Pvt Ltd",
-      duration: "Oct 2020 - Jan 2024",
+      duration: "Oct 2020 - Mar 2024",
       icon: <FaCode />,
       description:
         "Developed and maintained software solutions using Agile methodologies while contributing to system testing and product delivery.",
